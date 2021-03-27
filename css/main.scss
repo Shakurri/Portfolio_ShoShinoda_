@@ -254,7 +254,7 @@ aside{
     .workImg{
       display: none;
       width:45%;
-      max-width:700px;
+      max-width:800px;
       min-width:300px;
       height:90%;
       vertical-align: center;
@@ -279,7 +279,7 @@ aside{
     .workCaption{
       position: relative;
       width:40%;
-      max-width:700px;
+      max-width:800px;
       min-width:300px;
       height:90%;
       display: none;
@@ -310,7 +310,9 @@ aside{
         height:30px;
       }
       a{
-        color:$mainWhite;
+        text-decoration: none;
+        color:$mainYellow;
+        border-bottom: 1px solid $mainYellow;
       }
       .back{
         font-size: 1.2vw;
