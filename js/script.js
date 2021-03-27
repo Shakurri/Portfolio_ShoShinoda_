@@ -1,4 +1,4 @@
-var imgSrc=["pen.jpg","shock.jpg","bs.jpg","cac.png","ccc.jpg","cub.jpg","itv.jpg","itv2.jpg","os.png","tdc.png"];
+var imgSrc=["pen.jpg","shock.jpg","bs.jpg","cac.png","ccc.jpg","cub.jpg","itv.jpg","itv2.jpg","os.png","tdc.png","bbl.png","cn.png","krt.jpg","noh.jpg"];
 var asideElm=document.getElementById("asideImg");
 
 
@@ -235,7 +235,7 @@ function start(){
 }
 
 function close(){
-    $('aside').animate({width:"15vw"},600,'jswing');
+    $('aside').animate({width:"15vw"},800,'jswing');
     $('.ecWorkImg').fadeOut(300);
     $('.ecWorkCap').fadeOut(300);
    $('.bblWorkImg').fadeOut(300);
