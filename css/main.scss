@@ -226,7 +226,7 @@ section{
 
 aside{
   width:15vw;
-  height:200vh;
+  height:100vh;
   position:fixed;
   background-color:$backYellow;
   top:0;
@@ -252,12 +252,29 @@ aside{
     height:100%;
     color:$mainWhite;
     .workImg{
-      max-width:30vw;
-      height:90%;
       display: none;
+      width:50%;
+      height:90%;
+      img{
+        width:100%;
+      }
+      .tubeBox{
+        width:100%;              
+        padding-bottom: 56.25%;  
+        height:0px;              
+        position: relative;
+        iframe{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
     }
     .workCaption{
-      max-width:35vw;
+      position: relative;
+      width:40%;
       height:90%;
       display: none;
       .capTitle{
@@ -286,6 +303,16 @@ aside{
       .capSpace{
         width:100%;
         height:30px;
+      }
+      a{
+        color:$mainWhite;
+      }
+      .back{
+        font-size: 25px;
+        position:absolute;
+        right:1%;
+        bottom:0;
+        cursor: pointer;
       }
     }
   }

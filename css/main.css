@@ -300,7 +300,7 @@ section .space {
 
 aside {
   width: 15vw;
-  height: 200vh;
+  height: 100vh;
   position: fixed;
   background-color: #636300;
   top: 0;
@@ -338,13 +338,33 @@ aside .workBox {
 }
 
 aside .workBox .workImg {
-  max-width: 30vw;
-  height: 90%;
   display: none;
+  width: 50%;
+  height: 90%;
+}
+
+aside .workBox .workImg img {
+  width: 100%;
+}
+
+aside .workBox .workImg .tubeBox {
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0px;
+  position: relative;
+}
+
+aside .workBox .workImg .tubeBox iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 aside .workBox .workCaption {
-  max-width: 35vw;
+  position: relative;
+  width: 40%;
   height: 90%;
   display: none;
 }
@@ -379,6 +399,18 @@ aside .workBox .workCaption .capOverview {
 aside .workBox .workCaption .capSpace {
   width: 100%;
   height: 30px;
+}
+
+aside .workBox .workCaption a {
+  color: #dddddd;
+}
+
+aside .workBox .workCaption .back {
+  font-size: 25px;
+  position: absolute;
+  right: 1%;
+  bottom: 0;
+  cursor: pointer;
 }
 
 nav {

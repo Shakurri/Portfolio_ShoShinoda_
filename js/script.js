@@ -212,6 +212,12 @@ $(function(){
       $('.tdcWorkCap').fadeIn(800);
     },1200)
   });
+
+  $(".back").on('click',function(){
+    close();
+    asideElm.src="image/aside/"+asideChoice();
+    time=setInterval(asideMove,50);
+  });
 });
 
 const typing = (element, sentence) => {
@@ -230,32 +236,32 @@ function start(){
 
 function close(){
     $('aside').animate({width:"15vw"},600,'jswing');
-    $('.ecWorkImg').fadeOut(800);
-    $('.ecWorkCap').fadeOut(800);
-   $('.bblWorkImg').fadeOut(800);
-   $('.bblWorkCap').fadeOut(800);
-   $('.nohWorkImg').fadeOut(800);
-   $('.nohWorkCap').fadeOut(800);
-    $('.tcWorkImg').fadeOut(800);
-    $('.tcWorkCap').fadeOut(800);
-   $('.krtWorkImg').fadeOut(800);
-   $('.krtWorkCap').fadeOut(800);
-   $('.itvWorkImg').fadeOut(800);
-   $('.itvWorkCap').fadeOut(800);
-   $('.cccWorkImg').fadeOut(800);
-   $('.cccWorkCap').fadeOut(800);
-    $('.bsWorkImg').fadeOut(800);
-    $('.bsWorkCap').fadeOut(800);
-   $('.cubWorkImg').fadeOut(800);
-   $('.cubWorkCap').fadeOut(800);
-   $('.cacWorkImg').fadeOut(800);
-   $('.cacWorkCap').fadeOut(800);
-    $('.cnWorkImg').fadeOut(800);
-    $('.cnWorkCap').fadeOut(800);
-    $('.osWorkImg').fadeOut(800);
-    $('.osWorkCap').fadeOut(800);
-   $('.tdcWorkImg').fadeOut(800);
-   $('.tdcWorkCap').fadeOut(800);
+    $('.ecWorkImg').fadeOut(300);
+    $('.ecWorkCap').fadeOut(300);
+   $('.bblWorkImg').fadeOut(300);
+   $('.bblWorkCap').fadeOut(300);
+   $('.nohWorkImg').fadeOut(300);
+   $('.nohWorkCap').fadeOut(300);
+    $('.tcWorkImg').fadeOut(300);
+    $('.tcWorkCap').fadeOut(300);
+   $('.krtWorkImg').fadeOut(300);
+   $('.krtWorkCap').fadeOut(300);
+   $('.itvWorkImg').fadeOut(300);
+   $('.itvWorkCap').fadeOut(300);
+   $('.cccWorkImg').fadeOut(300);
+   $('.cccWorkCap').fadeOut(300);
+    $('.bsWorkImg').fadeOut(300);
+    $('.bsWorkCap').fadeOut(300);
+   $('.cubWorkImg').fadeOut(300);
+   $('.cubWorkCap').fadeOut(300);
+   $('.cacWorkImg').fadeOut(300);
+   $('.cacWorkCap').fadeOut(300);
+    $('.cnWorkImg').fadeOut(300);
+    $('.cnWorkCap').fadeOut(300);
+    $('.osWorkImg').fadeOut(300);
+    $('.osWorkCap').fadeOut(300);
+   $('.tdcWorkImg').fadeOut(300);
+   $('.tdcWorkCap').fadeOut(300);
     isChanging=true;
     isWorkViewing=false;
     setTimeout(function(){
