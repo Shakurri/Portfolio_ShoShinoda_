@@ -327,10 +327,12 @@ function close(){
 }
 
 
-time=setInterval(asideMove,50);
-scroll = $(this).scrollTop();
+
+
 window.onload = function() {
   start();
+  time=setInterval(asideMove,50);
+  console.log("staaaaaaaaart");
 }
 
 

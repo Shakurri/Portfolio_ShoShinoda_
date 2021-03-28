@@ -39,6 +39,7 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: default;
     p{
       font-family:"MplusT";
       text-align: center;
@@ -59,8 +60,11 @@ section{
       0% {
         opacity: 0;
       }
-      50% {
+      45% {
         opacity: 1.0;
+      }
+      90% {
+        opacity: 0;
       }
       100% {
         opacity: 0;
@@ -391,4 +395,5 @@ nav{
     }
   }
 }
+
 
