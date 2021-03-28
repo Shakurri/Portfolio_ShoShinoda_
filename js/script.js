@@ -71,7 +71,11 @@ function asideMove(){
 $(function(){
   $(".woEC").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -82,7 +86,11 @@ $(function(){
   });
   $(".woBBL").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -93,7 +101,11 @@ $(function(){
   });
   $(".woNOH").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -104,7 +116,11 @@ $(function(){
   });
   $(".woTC").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -115,7 +131,11 @@ $(function(){
   });
   $(".woKRT").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -126,7 +146,11 @@ $(function(){
   });
   $(".woITV").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -137,7 +161,11 @@ $(function(){
   });
   $(".woCCC").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -148,7 +176,11 @@ $(function(){
   });
   $(".woBS").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -159,7 +191,11 @@ $(function(){
   });
   $(".woPU").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -170,7 +206,11 @@ $(function(){
   });
   $(".woCAC").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -181,7 +221,11 @@ $(function(){
   });
   $(".woCN").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -192,7 +236,11 @@ $(function(){
   });
   $(".woOS").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -203,7 +251,11 @@ $(function(){
   });
   $(".woTDC").on('click',function(){
     $('#asideImg').fadeOut(800);
-    $('aside').animate({width:"85vw"},1200,'jswing');
+    if(winWidth>480){
+      $('aside').animate({width:"85vw"},1200,'jswing');
+    }else{
+      $('aside').animate({width:"95vw"},1200,'jswing');
+    }
     isChanging=false;
     isWorkViewing=true;
     console.log("workClick");
@@ -235,7 +287,11 @@ function start(){
 }
 
 function close(){
+  if(winWidth>480){
     $('aside').animate({width:"15vw"},800,'jswing');
+  }else{
+    $('aside').animate({width:"0"},800,'jswing');
+  }
     $('.ecWorkImg').fadeOut(300);
     $('.ecWorkCap').fadeOut(300);
    $('.bblWorkImg').fadeOut(300);
