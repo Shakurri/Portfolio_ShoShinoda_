@@ -329,7 +329,9 @@ function close(){
 
 time=setInterval(asideMove,50);
 scroll = $(this).scrollTop();
-start();
+window.onload = function() {
+  start();
+}
 
 
 
