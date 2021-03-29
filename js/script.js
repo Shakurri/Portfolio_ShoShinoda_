@@ -78,7 +78,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.ecWorkImg').fadeIn(800);
       $('.ecWorkCap').fadeIn(800);
@@ -93,7 +93,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.bblWorkImg').fadeIn(800);
       $('.bblWorkCap').fadeIn(800);
@@ -108,7 +108,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.nohWorkImg').fadeIn(800);
       $('.nohWorkCap').fadeIn(800);
@@ -123,7 +123,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.tcWorkImg').fadeIn(800);
       $('.tcWorkCap').fadeIn(800);
@@ -138,7 +138,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.krtWorkImg').fadeIn(800);
       $('.krtWorkCap').fadeIn(800);
@@ -153,7 +153,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.itvWorkImg').fadeIn(800);
       $('.itvWorkCap').fadeIn(800);
@@ -168,7 +168,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.cccWorkImg').fadeIn(800);
       $('.cccWorkCap').fadeIn(800);
@@ -183,7 +183,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.bsWorkImg').fadeIn(800);
       $('.bsWorkCap').fadeIn(800);
@@ -198,7 +198,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.cubWorkImg').fadeIn(800);
       $('.cubWorkCap').fadeIn(800);
@@ -213,7 +213,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.cacWorkImg').fadeIn(800);
       $('.cacWorkCap').fadeIn(800);
@@ -228,7 +228,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.cnWorkImg').fadeIn(800);
       $('.cnWorkCap').fadeIn(800);
@@ -243,7 +243,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.osWorkImg').fadeIn(800);
       $('.osWorkCap').fadeIn(800);
@@ -258,7 +258,7 @@ $(function(){
     }
     isChanging=false;
     isWorkViewing=true;
-    console.log("workClick");
+    noScroll();
     setTimeout(function(){
       $('.tdcWorkImg').fadeIn(800);
       $('.tdcWorkCap').fadeIn(800);
@@ -320,10 +320,28 @@ function close(){
    $('.tdcWorkCap').fadeOut(300);
     isChanging=true;
     isWorkViewing=false;
+    returnScroll();
     setTimeout(function(){
       $('#asideImg').fadeIn(800);
     },500)
     console.log("close");
+}
+
+function disableScroll(event) {
+  event.preventDefault();
+}
+
+// スクロール禁止
+function noScroll() {
+  // イベントと関数を紐付け
+  document.addEventListener('touchmove', disableScroll, { passive: false });
+  document.addEventListener('mousewheel', disableScroll, { passive: false });
+}
+
+function returnScroll() {    
+  // イベントと関数を紐付け  
+  document.removeEventListener('touchmove', disableScroll, { passive: false });
+  document.removeEventListener('mousewheel', disableScroll, { passive: false });
 }
 
 
