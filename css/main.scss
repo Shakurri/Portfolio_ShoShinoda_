@@ -373,6 +373,9 @@ aside{
         font-size:1.1vw;;
         font-family:"MplusT";
         margin:5px 0;
+        @media screen and (max-width:480px){
+          font-size:2.5vw;
+        }
       }
       .capSpace{
         width:100%;
