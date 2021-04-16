@@ -512,7 +512,7 @@ aside .workBox .workCaption .capTitle {
 
 @media screen and (max-width: 480px) {
   aside .workBox .workCaption .capTitle {
-    font-size: 3.5vw;
+    font-size: 5.5vw;
   }
 }
 
@@ -525,7 +525,7 @@ aside .workBox .workCaption .capCatch {
 
 @media screen and (max-width: 480px) {
   aside .workBox .workCaption .capCatch {
-    font-size: 2.0vw;
+    font-size: 2.2vw;
   }
 }
 
@@ -537,7 +537,7 @@ aside .workBox .workCaption .capAdd {
 
 @media screen and (max-width: 480px) {
   aside .workBox .workCaption .capAdd {
-    font-size: 2.0vw;
+    font-size: 2.2vw;
   }
 }
 
