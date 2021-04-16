@@ -56,7 +56,7 @@ section .topText p {
 
 @media screen and (max-width: 480px) {
   section .topText p {
-    font-size: 5.5vw;
+    font-size: 7.5vw;
   }
 }
 
@@ -100,14 +100,14 @@ section .topText p::after {
 section .title {
   font-family: "MplusT";
   text-align: center;
-  padding: 10vw 10vw;
+  padding: 10vw 10vw 5vw 10vw;
   font-size: 2.5vw;
   color: #FFFF44;
 }
 
 @media screen and (max-width: 480px) {
   section .title {
-    font-size: 4.5vw;
+    font-size: 6.5vw;
   }
 }
 
@@ -223,6 +223,7 @@ section .skills dl {
 @media screen and (max-width: 480px) {
   section .skills dl {
     width: 80%;
+    font-size: 4vw;
   }
 }
 
@@ -279,6 +280,7 @@ section .profile dl {
 @media screen and (max-width: 480px) {
   section .profile dl {
     width: 80%;
+    font-size: 4vw;
   }
 }
 
@@ -309,9 +311,16 @@ section .Contact p {
   cursor: pointer;
 }
 
+@media screen and (max-width: 480px) {
+  section .Contact p {
+    font-size: 3vw;
+  }
+}
+
 section .Contact .penBox {
   position: relative;
   height: 100%;
+  margin-top: 10vw;
 }
 
 section .Contact .penBox img {
@@ -319,15 +328,70 @@ section .Contact .penBox img {
   width: 18%;
   margin: 0 41%;
   bottom: -5px;
-  opacity: 0.8;
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  -webkit-animation: purpur 1.5s linear infinite;
+          animation: purpur 1.5s linear infinite;
 }
 
 @media screen and (max-width: 480px) {
   section .Contact .penBox img {
     width: 30%;
     margin: 0 35%;
+  }
+}
+
+@-webkit-keyframes purpur {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  35% {
+    left: 0;
+    right: 0;
+  }
+  45% {
+    left: 1vw;
+    right: -1vw;
+  }
+  55% {
+    left: -1vw;
+    right: 1vw;
+  }
+  65% {
+    left: 0;
+    right: 0;
+  }
+  100% {
+    left: 0;
+    right: 0;
+  }
+}
+
+@keyframes purpur {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  35% {
+    left: 0;
+    right: 0;
+  }
+  45% {
+    left: 1vw;
+    right: -1vw;
+  }
+  55% {
+    left: -1vw;
+    right: 1vw;
+  }
+  65% {
+    left: 0;
+    right: 0;
+  }
+  100% {
+    left: 0;
+    right: 0;
   }
 }
 
@@ -343,6 +407,12 @@ section .Contact .penBox p {
   margin: 0 30%;
   bottom: 5px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  section .Contact .penBox p {
+    font-size: 0.7vw;
+  }
 }
 
 section .space {
