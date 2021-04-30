@@ -128,10 +128,10 @@ section .works {
 section .works figure {
   -webkit-transition: 1.5s;
   transition: 1.5s;
-  width: 22%;
+  width: 25%;
   height: auto;
   margin: 30px 2%;
-  border-radius: 15% 15% 15% 15%/20% 20% 20% 20%;
+  border-radius: 5% 0 5% 0;
   overflow: hidden;
   position: relative;
   display: -webkit-box;
@@ -167,7 +167,7 @@ section .works figure span {
   top: 45%;
   color: #666666;
   font-family: "MplusR";
-  font-size: 1.1vw;
+  font-size: 0.9vw;
   text-align: center;
   opacity: 0.0;
   -webkit-transition: 0.8s;
