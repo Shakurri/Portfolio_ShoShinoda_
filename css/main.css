@@ -130,8 +130,8 @@ section .works figure {
   transition: 1.5s;
   width: 25%;
   height: auto;
-  margin: 30px 2%;
-  border-radius: 5% 0 5% 0;
+  margin: 80px 2%;
+  border-radius: 5% 5% 5% 5%;
   overflow: hidden;
   position: relative;
   display: -webkit-box;
