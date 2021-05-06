@@ -130,7 +130,7 @@ section .works figure {
   transition: 1.5s;
   width: 25%;
   height: auto;
-  margin: 80px 2%;
+  margin: 50px 2%;
   border-radius: 5% 5% 5% 5%;
   overflow: hidden;
   position: relative;
